@@ -123,7 +123,7 @@ export const data = [
   {
     id: 12,
     name: "Cristian Baroni",
-    img: "https://m.superfb.com/img/2019/11/16/baroniden-kocaman-yanal-kiyasi-ve-aziz-sfb-642-800.jpg",
+    img: "https://media05.ligtv.com.tr/img/news/2012/10/14/cristian-baroni.jpg",
     statistics: [
       "23,757 points",
       "12,546 rebounds",

@@ -12,6 +12,10 @@
 /*                BODY                */
 /* ---------------------------------- */
 
+body {
+  background-color: #011e3e;
+}
+
 /* ---------------------------------- */
 /*               HEADER               */
 /* ---------------------------------- */
@@ -23,8 +27,10 @@
   justify-content: center;
   row-gap: 2rem;
 
-  margin-top: 5rem;
-  padding: 1rem;
+  margin-top: 3rem;
+  padding: 2.5rem 1rem;
+  background-color: #ddb525;
+  color: #011e3e;
 }
 
 .header img {
@@ -45,7 +51,9 @@
 .cardContainer {
   max-width: 70rem;
   padding: 2rem;
-  margin: 5rem auto;
+  margin: 1rem auto;
+  border-radius: 10px;
+  background-color: #011e3e;
 
   display: flex;
   flex-wrap: wrap;
@@ -63,8 +71,9 @@
   width: 15rem;
   height: 25rem;
   border-radius: 10px;
+  color: #fff;
 
-  border: 2px solid #fff;
+  border: 2px solid #ddb525;
 }
 
 .playerCard-top {
@@ -92,7 +101,11 @@
   width: 100%;
   height: 90%;
 
-  border: 2px solid black;
+  border: 2px solid #ddb525;
+}
+
+.playerStats {
+  font-size: 1.2rem;
 }
 
 .playerCard h3 {
