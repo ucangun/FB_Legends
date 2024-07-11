@@ -10,7 +10,6 @@ The primary objective of this project was to enhance and demonstrate my skills i
 ```
 |--Fb_Legends(folder)
 |
-SOLUTION
 ├── public
 │     └── index.html
 ├── src
