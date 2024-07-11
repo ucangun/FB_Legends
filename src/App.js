@@ -6,7 +6,7 @@ import { data } from "./helper/data";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header data={data} />
       <CardContainer data={data} />
     </div>
   );
