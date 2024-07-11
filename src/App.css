@@ -37,3 +37,21 @@
   padding: 0.4rem 0.8rem;
   outline: none;
 }
+
+/* ---------------------------------- */
+/*             PLAYERCARD             */
+/* ---------------------------------- */
+
+.playerCard {
+  width: 15rem;
+  height: 25rem;
+}
+
+.playerCard img {
+  width: 100%;
+  height: 80%;
+}
+
+.playerCard h3 {
+  text-align: center;
+}
