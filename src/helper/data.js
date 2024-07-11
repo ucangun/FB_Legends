@@ -392,9 +392,9 @@ export const data = [
     name: "Edin Dzeko",
     img: "https://cdn.ntvspor.net/ebfa28f15fe34dd5bf684146966b1eba.jpg?mode=crop&w=940&h=626",
     statistics: [
-      "🏟️ Game: 62",
-      "⚽️ Score: 7",
-      "🎯 Assists: 3",
+      "🏟️ Game: 46",
+      "⚽️ Score: 25",
+      "🎯 Assists: 10",
       "🏆 Trophy: 0",
     ],
   },
