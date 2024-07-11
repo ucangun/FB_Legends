@@ -1,11 +1,20 @@
 import PlayerCard from "./PlayerCard";
 import React, { useState } from "react";
+
 const CardContainer = ({ data }) => {
   const [value, setValue] = useState("");
-  const newArr = data
-    .map((player) => player.name.toLowerCase())
-    .filter((name) => name.includes(value));
-  console.log(newArr);
+  const [items, setItems] = useState(data);
+
+  const handleSearch = (e) => {
+    const searchValue = e.target.value.toLowerCase();
+    setValue(e.target.value.toLowerCase());
+    const filteredData = data.filter((player) =>
+      player.name.toLowerCase().includes(searchValue)
+    );
+
+    setItems(filteredData);
+  };
+
   return (
     <div className="container">
       <form>
@@ -13,11 +22,11 @@ const CardContainer = ({ data }) => {
           type="text"
           placeholder="Search for a player"
           value={value}
-          onChange={(e) => setValue(e.target.value)}
+          onChange={handleSearch}
         />
       </form>
       <div className="cardContainer">
-        {data.map((player, index) => (
+        {items.map((player, index) => (
           <PlayerCard player={player} key={index} />
         ))}
       </div>
