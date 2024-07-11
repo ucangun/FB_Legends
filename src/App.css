@@ -1,0 +1,33 @@
+/* ---------------------------------- */
+/*                RESET               */
+/* ---------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------- */
+/*                BODY                */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/*               HEADER               */
+/* ---------------------------------- */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10rem;
+  row-gap: 3rem;
+
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.header img {
+  width: 10rem;
+  aspect-ratio: 1;
+}
