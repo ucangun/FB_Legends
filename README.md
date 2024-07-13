@@ -14,9 +14,9 @@ The primary objective of this project was to enhance and demonstrate my skills i
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Header.js
-│    │       ├── CardContainer.js
-│    │       └── PlayerCard.js
+│    │       ├── Header.jsx
+│    │       ├── CardContainer.jsx
+│    │       └── PlayerCard.jsx
 │    ├── helper
 │    │       └── data.js
 │    ├── assets.js
@@ -25,8 +25,9 @@ The primary objective of this project was to enhance and demonstrate my skills i
 │    ├── App.css
 │    ├── index.js
 │    └── index.css
+├── .gitignore
 ├── package.json
-├── yarn.lock
+├── package-lock.json
 └── README.md
 ```
 
